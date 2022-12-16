@@ -1,0 +1,55 @@
+{
+    "os": "macOS-12.5.1-x86_64-i386-64bit",
+    "python": "3.10.8",
+    "heartbeatAt": "2022-12-07T00:43:21.720192",
+    "startedAt": "2022-12-07T00:43:20.984373",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "4",
+        "--epochs",
+        "300",
+        "--data",
+        "./data/data.yaml",
+        "--cfg",
+        "models/yolov5s.yaml",
+        "--weights",
+        ""
+    ],
+    "state": "running",
+    "program": "/Users/yangmaster/dev/yolov5/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "f8539a680041a9f4fbcc4fcdd8f540724da453af"
+    },
+    "email": "alyssazhang888@yahoo.com",
+    "root": "/Users/yangmaster/dev/yolov5",
+    "host": "bo-Mac-mini.local",
+    "username": "yangmaster",
+    "executable": "/usr/local/opt/python@3.10/bin/python3.10",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 3000,
+        "min": 3000,
+        "max": 3000
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000,
+            "min": 3000,
+            "max": 3000
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 160.9789161682129
+    },
+    "memory": {
+        "total": 64.0
+    }
+}
